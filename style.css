@@ -1,0 +1,135 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    font-size: 50px;
+    color: rgb(100, 100, 100);
+    padding-top: 50px;
+    font-weight:900;
+}
+.orange-color{
+    color: orangered;
+}
+.flex-container{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 120px;
+
+}
+.page-1{
+    width: 50%;
+}
+.page-1 img{
+    width:80%;
+    padding-left: 30px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    background-image: linear-gradient( to right, rgb(255, 190, 69), orangered);
+    border-radius: 40px;
+    font-weight: 700;
+}
+#paragraph-1{
+    color: lightslategray;
+    padding-bottom: 50px;
+}
+
+.flex-container-2{
+    display: flex;
+    height: 800px;
+    background-image: url(images/background-image.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+
+}
+.page-2{
+    width: 50%;
+}
+.page-2 img { 
+    width: 50%;
+    padding-top: 66px;
+    padding-left: 140px;
+}
+#about{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(100, 100, 100);
+    padding-top: 80px;
+}
+.paragraph-2{
+    font-weight:300;
+    padding-bottom: 80px;
+
+}
+#mid-line{
+    text-align: center;
+}
+#rec{
+    color: grey;
+    font-size: 35px;
+}
+.paragraph-3{
+    font-weight: 200;
+}
+
+.flex-container-3{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.card{
+    box-shadow: gray 5px 5px 20px 0px;
+    width: 320px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card-image{
+    
+    background-color: white;
+    padding: 10px;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px ;
+}
+.img-1{
+    background-image: url(images/food-1.png);
+}
+.img-2{
+    background-image: url(images/food-2.png);
+}
+.img-3{
+    background-image: url(images/food-3.png);
+}
+.card-text{
+    padding: 20px;
+
+}
+.flex-container-4{
+    display: flex;
+    height: auto;
+    width: 70%;
+    box-shadow: rgb(0, 0, 0) 5px 5px 20px 0px;
+    margin:0 auto;
+   margin-bottom: 50px;
+    border-radius: 20px;
+   
+    
+}
+.social-media{
+    width: 30%;
+     text-align: center;
+     margin:0%;
+     padding:0px ;
+
+}
